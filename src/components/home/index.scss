@@ -1,0 +1,21 @@
+.home {
+  text-align: center;
+  height: 61rem;
+  width: 100%;
+  color: white;
+  line-height: 51rem;
+  background-image: url("https://d2r72yk5wmppdj.cloudfront.net/m/36e69f183a3f6668/Low-ModernOffice_Overall_Plan2.jpg");
+  &__content {
+    font-size: 40px;
+    font-weight: bold;
+  }
+}
+
+.button {
+  background-color: #35f0a2;
+  color: white;
+  height: 50px;
+  font-size: 20px;
+  border: 0;
+  line-height: 50px;
+}
