@@ -1,0 +1,21 @@
+.community {
+  &__header {
+    width: 100%;
+    height: 40vh;
+    background-color: white;
+    text-align: center;
+  }
+  p {
+    margin-bottom: 0;
+    position: relative;
+    transform: translate(-50%, -50%);
+    // width: 100%;
+    left: 50%;
+    top: 45%;
+  }
+  &__content {
+    height: 52vh;
+    width: 100%;
+    background-color: aqua;
+  }
+}

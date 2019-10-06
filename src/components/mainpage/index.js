@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import Header from "../header";
 import Home from "../home";
 import About from "../about";
+import Community from "../community";
 
 class MainPage extends Component {
   constructor(props) {
@@ -14,6 +15,7 @@ class MainPage extends Component {
         <Header />
         <Home />
         <About />
+        <Community />
       </div>
     );
   }
