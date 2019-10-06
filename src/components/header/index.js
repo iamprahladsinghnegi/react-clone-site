@@ -25,7 +25,7 @@ class Header extends Component {
     return (
       <div className="header">
         <Row gutter={24}>
-          <Col span={3} style={{ fontWeight: "bold", fontSize: 28 }}>
+          <Col span={3} style={{ fontWeight: "bold" }}>
             The Annex.
           </Col>
           <Col

@@ -1,10 +1,13 @@
 .header {
+  position: fixed;
+  width: 100%;
   background-color: black;
   height: 75px;
   color: white;
   line-height: 75px;
   padding: 0 10%;
   font-size: 20px;
+  z-index: 1;
   // text-align: center;
 }
 

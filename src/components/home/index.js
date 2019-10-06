@@ -11,7 +11,9 @@ class Home extends Component {
     return (
       <div className="home">
         <div className="home__content">
-          CCO-WORKING IN AN INNOVATIVE ENVIRONMENT
+          <p>CCO-WORKING</p>
+          IN AN INNOVATIVE ENVIRONMENT
+          <br />
           <Button className="button">BOOK A SPACE</Button>
         </div>
       </div>
