@@ -5,13 +5,13 @@
   width: 100%;
   color: white;
   // line-height: 51rem;
-  background-image: url("https://d2r72yk5wmppdj.cloudfront.net/m/36e69f183a3f6668/Low-ModernOffice_Overall_Plan2.jpg");
+  background-image: url("https://www.designlike.com/wp-content/uploads/2015/07/office-design.jpg");
   &__content {
     p {
       margin-bottom: 0;
     }
-    font-size: 40px;
-    font-weight: bold;
+    font-size: 30px;
+    // font-weight: bold;
     position: absolute;
     transform: translate(-50%, -50%);
     width: 100%;
@@ -25,7 +25,10 @@
   width: 200px;
   height: 50px;
   font-size: 20px;
-  // line-height: 50px;
+  border: 0px;
+  line-height: 50px;
+  color: white;
+  margin-top: 20px;
   // margin: 0 auto;
   // margin-top: 0px;
 }

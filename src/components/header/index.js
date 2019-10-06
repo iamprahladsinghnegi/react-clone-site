@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Row, Col, Button, Modal } from "antd";
+import { Row, Col, Button, Modal, Avatar } from "antd";
 import "antd/dist/antd.css";
 import "./index.scss";
 
@@ -25,7 +25,12 @@ class Header extends Component {
     return (
       <div className="header">
         <Row gutter={24}>
-          <Col span={3} style={{ fontWeight: "bold" }}>
+          <Col
+            span={3}
+            align="center"
+            style={{ cursor: "pointer" }}
+            onClick={() => console.log("the annex.")}
+          >
             The Annex.
           </Col>
           <Col
@@ -82,10 +87,10 @@ class Header extends Component {
             style={{ cursor: "pointer" }}
             onClick={() => console.log("log in")}
           >
-            <img
-              className="img"
-              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzJy3Ue46Nh91gu0LGLgmHx0ey4R1avXmRJe18CEH9lOWxCEj4Vw"
-            ></img>
+            <Avatar
+              icon="user"
+              style={{ color: "black", backgroundColor: "#35f0a2" }}
+            />
             Log In
           </Col>
         </Row>
