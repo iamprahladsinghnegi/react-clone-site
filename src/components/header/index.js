@@ -28,7 +28,7 @@ class Header extends Component {
           <Col
             span={3}
             align="center"
-            style={{ cursor: "pointer" }}
+            style={{ cursor: "pointer", fontSize: "20px", fontWeight: "bold" }}
             onClick={() => console.log("the annex.")}
           >
             The Annex.
@@ -37,9 +37,9 @@ class Header extends Component {
             span={3}
             align="center"
             style={{ cursor: "pointer" }}
-            onClick={() => console.log("Home")}
+            onClick={() => console.log("home")}
           >
-            Home
+            <a href="#home">Home</a>
           </Col>
           <Col
             span={3}
@@ -47,7 +47,7 @@ class Header extends Component {
             style={{ cursor: "pointer" }}
             onClick={() => console.log("about")}
           >
-            About
+            <a href="#about">About</a>
           </Col>
           <Col
             span={3}
@@ -55,7 +55,7 @@ class Header extends Component {
             style={{ cursor: "pointer" }}
             onClick={() => console.log("community")}
           >
-            Community
+            <a href="#community">Community</a>
           </Col>
           <Col
             span={3}
@@ -63,7 +63,7 @@ class Header extends Component {
             style={{ cursor: "pointer" }}
             onClick={() => console.log("space")}
           >
-            Space
+            <a href="#space">Space</a>
           </Col>
           <Col
             span={3}
@@ -71,7 +71,7 @@ class Header extends Component {
             style={{ cursor: "pointer" }}
             onClick={() => console.log("mem")}
           >
-            Membership
+            <a href="#membership">Membership</a>
           </Col>
           <Col
             span={3}
@@ -79,7 +79,7 @@ class Header extends Component {
             style={{ cursor: "pointer" }}
             onClick={() => console.log("contact")}
           >
-            Contact
+            <a href="#contact">Contact</a>
           </Col>
           <Col
             span={3}

@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import ScrollableAnchor from "react-scrollable-anchor";
 import Header from "../header";
 import Home from "../home";
 import About from "../about";
@@ -13,9 +14,16 @@ class MainPage extends Component {
     return (
       <div>
         <Header />
-        <Home />
-        <About />
-        <Community />
+
+        <ScrollableAnchor id={"home"}>
+          <Home />
+        </ScrollableAnchor>
+        <ScrollableAnchor id={"about"}>
+          <About />
+        </ScrollableAnchor>
+        <ScrollableAnchor id={"community"}>
+          <Community />
+        </ScrollableAnchor>
       </div>
     );
   }
