@@ -1,6 +1,6 @@
 import "./index.scss";
 import React, { Component } from "react";
-import { Button } from "antd/lib/radio";
+import MyButton from "../button";
 
 class Home extends Component {
   constructor(props) {
@@ -14,7 +14,7 @@ class Home extends Component {
           <p style={{ fontSize: 100, fontWeight: "bold" }}>CO-WORKING</p>
           IN AN INNOVATIVE ENVIRONMENT
           <br />
-          <Button className="button">BOOK A SPACE</Button>
+          <MyButton value={"BOOK A SPACE"} backgroundColor={"aqua"} />
         </div>
       </div>
     );

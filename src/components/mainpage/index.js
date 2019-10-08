@@ -4,6 +4,7 @@ import Header from "../header";
 import Home from "../home";
 import About from "../about";
 import Community from "../community";
+import Space from "../space";
 
 class MainPage extends Component {
   constructor(props) {
@@ -23,6 +24,9 @@ class MainPage extends Component {
         </ScrollableAnchor>
         <ScrollableAnchor id={"community"}>
           <Community />
+        </ScrollableAnchor>
+        <ScrollableAnchor id={"space"}>
+          <Space />
         </ScrollableAnchor>
       </div>
     );

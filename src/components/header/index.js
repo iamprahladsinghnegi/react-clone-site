@@ -21,6 +21,8 @@ class Header extends Component {
   //     return header;
   //   };
 
+  // xl={} lg={} md={} sm={} xs={}
+
   render() {
     return (
       <div className="header">
@@ -28,7 +30,12 @@ class Header extends Component {
           <Col
             span={3}
             align="center"
-            style={{ cursor: "pointer", fontSize: "20px", fontWeight: "bold" }}
+            style={{
+              cursor: "pointer",
+              fontSize: "20px",
+              fontWeight: "bold",
+              padding: 0
+            }}
             onClick={() => console.log("the annex.")}
           >
             The Annex.
@@ -84,12 +91,12 @@ class Header extends Component {
           <Col
             span={3}
             align="center"
-            style={{ cursor: "pointer" }}
+            style={{ cursor: "pointer", padding: 0 }}
             onClick={() => console.log("log in")}
           >
             <Avatar
               icon="user"
-              style={{ color: "black", backgroundColor: "#35f0a2" }}
+              style={{ color: "black", backgroundColor: "aqua" }}
             />
             Log In
           </Col>
