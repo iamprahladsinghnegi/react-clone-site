@@ -28,11 +28,11 @@ class Header extends Component {
       <div className="header">
         <Row gutter={24}>
           <Col
-            span={3}
-            align="center"
+            align="right"
+            span={6}
             style={{
               cursor: "pointer",
-              fontSize: "20px",
+              fontSize: "26px",
               fontWeight: "bold",
               padding: 0
             }}
@@ -40,65 +40,75 @@ class Header extends Component {
           >
             The Annex.
           </Col>
-          <Col
-            span={3}
-            align="center"
-            style={{ cursor: "pointer" }}
-            onClick={() => console.log("home")}
-          >
-            <a href="#home">Home</a>
-          </Col>
-          <Col
-            span={3}
-            align="center"
-            style={{ cursor: "pointer" }}
-            onClick={() => console.log("about")}
-          >
-            <a href="#about">About</a>
-          </Col>
-          <Col
-            span={3}
-            align="center"
-            style={{ cursor: "pointer" }}
-            onClick={() => console.log("community")}
-          >
-            <a href="#community">Community</a>
-          </Col>
-          <Col
-            span={3}
-            align="center"
-            style={{ cursor: "pointer" }}
-            onClick={() => console.log("space")}
-          >
-            <a href="#space">Space</a>
-          </Col>
-          <Col
-            span={3}
-            align="center"
-            style={{ cursor: "pointer" }}
-            onClick={() => console.log("mem")}
-          >
-            <a href="#membership">Membership</a>
-          </Col>
-          <Col
-            span={3}
-            align="center"
-            style={{ cursor: "pointer" }}
-            onClick={() => console.log("contact")}
-          >
-            <a href="#contact">Contact</a>
-          </Col>
-          <Col
-            span={3}
-            align="center"
-            style={{ cursor: "pointer", padding: 0 }}
-            onClick={() => console.log("log in")}
-          >
-            <Avatar
-              icon="user"
-              style={{ color: "black", backgroundColor: "aqua" }}
-            />
-            Log In
+          <Col span={18}>
+            <Row gutter={24} style={{ maxWidth: "720px", margin: "0 auto" }}>
+              <Col
+                className="header__column"
+                span={3}
+                align="center"
+                style={{ cursor: "pointer" }}
+                onClick={() => console.log("home")}
+              >
+                <a href="#home">Home</a>
+              </Col>
+              <Col
+                className="header__column"
+                span={3}
+                align="center"
+                style={{ cursor: "pointer" }}
+                onClick={() => console.log("about")}
+              >
+                <a href="#about">About</a>
+              </Col>
+              <Col
+                className="header__column"
+                span={3}
+                align="center"
+                style={{ cursor: "pointer" }}
+                onClick={() => console.log("community")}
+              >
+                <a href="#community">Community</a>
+              </Col>
+              <Col
+                className="header__column"
+                span={3}
+                align="center"
+                style={{ cursor: "pointer" }}
+                onClick={() => console.log("space")}
+              >
+                <a href="#space">Space</a>
+              </Col>
+              <Col
+                className="header__column"
+                span={3}
+                align="center"
+                style={{ cursor: "pointer" }}
+                onClick={() => console.log("mem")}
+              >
+                <a href="#membership">Membership</a>
+              </Col>
+              <Col
+                className="header__column"
+                span={3}
+                align="center"
+                style={{ cursor: "pointer" }}
+                onClick={() => console.log("contact")}
+              >
+                <a href="#contact">Contact</a>
+              </Col>
+              <Col
+                span={3}
+                align="center"
+                style={{ cursor: "pointer", padding: 0 }}
+                onClick={() => console.log("log in")}
+              >
+                <Avatar
+                  icon="user"
+                  style={{ color: "black", backgroundColor: "aqua" }}
+                />
+                Log In
+              </Col>
+            </Row>
           </Col>
         </Row>
       </div>
