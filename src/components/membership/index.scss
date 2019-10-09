@@ -1,0 +1,17 @@
+.membership {
+  margin-top: 5px;
+  height: 30vh;
+  text-align: center;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  &__content {
+    position: relative;
+    transform: translate(-50%, -50%);
+    // width: 100%;
+    left: 50%;
+    top: 45%;
+    h1 {
+      font-size: 40px;
+      font-weight: bold;
+    }
+  }
+}
